@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container{
+display: flex;
+justify-content: space-between;
+padding: 15px;
+background-color: black;
+color: white;
+}
+
+div span{
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+
+@media screen and (width < 500px) {
+  .container{
+    display: none;
+  }
+}
+
+
+
+@media screen and (width > 500px) {
+  .container{
+    display: block;
+    
+  }
+}
